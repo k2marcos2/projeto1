@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Mídias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles_marcos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Truque de Mestre</h1>
+        <p>Um pouco sobre á "trilogia"</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Sobre Truque de Mestre</h2>
+            <p>Bem-vindo ao universo mágico e intrigante de Truque de Mestre! Esta franquia cativante combina o brilho do ilusionismo com histórias repletas de suspense e reviravoltas. Aqui, você encontra informações detalhadas sobre os filmes, desde os truques mais impressionantes até curiosidades sobre os bastidores e o elenco.</p>
+        </section>
+
+        <section class="category">
+            <h2>Filmes</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=iRKur9czUOo" target="_blank">
+                    <img src="https://br.web.img3.acsta.net/pictures/210/140/21014024_20130619225537406.jpg" alt="Truque de Mestre 1">
+                    </a>
+                    <h3><i class="bi bi-bank2"></i> Truque de Mestre (2013)</h3>
+                    <p>Um grupo de ilusionistas realiza assaltos ousados enquanto se apresenta nos palcos, intrigando a polícia e o público.</p>
+                </div>
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=XHQHjXijSa8" target="_blank">
+                    <img src="https://m.media-amazon.com/images/I/81XGkOh-mxL._AC_UF894,1000_QL80_.jpg" alt="Truque de Mestre 2">
+                    </a>
+                    <h3><i class="bi bi-suit-club-fill"></i> <i class="bi bi-suit-spade-fill"></i> Truque de Mestre 2: O Segundo Ato (2016) <i class="bi bi-suit-diamond"></i> <i class="bi bi-suit-heart"></i></h3>
+                    <p>Os Cavaleiros voltam para enfrentar um inimigo perigoso e realizam novos truques de tirar o fôlego.</p>
+
+                </div>
+                <div class="card">  
+                    <img src="tdm3.jpg">
+                    <h3>Truque de Mestre 3 (Em desenvolvimento)</h3>
+                    <p>O próximo capítulo promete expandir o universo mágico e trazer reviravoltas ainda mais impressionantes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Músicas</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=Jtjjh-WA32U" target="_blank">
+                    <img src="https://i.ytimg.com/vi/Jtjjh-WA32U/maxresdefault.jpg" alt="Trilha Sonora Truque de Mestre">
+                    </a>
+                    <h3>Trilha Sonora de Truque de Mestre</h3>
+                    <p>Composta por Brian Tyler, a trilha combina suspense e emoção, perfeita para o clima dos filmes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <h2>Elenco Principal</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNTE3MzQzODE3OV5BMl5BanBnXkFtZTcwMDE0ODY1NA@@._V1_.jpg" alt="Jesse Eisenberg">
+                    <h3>Jesse Eisenberg</h3>
+                    <p>Interpreta J. Daniel Atlas, o líder carismático dos Cavaleiros.</p>
+                </div>
+                <div class="card">
+                    <img src="https://br.web.img2.acsta.net/pictures/18/07/26/19/59/1559320.jpg" alt="Woody Harrelson">
+                    <h3>Woody Harrelson</h3>
+                    <p>Interpreta Merritt McKinney, um mentalista habilidoso.</p>
+                </div>
+                <div class="card">
+                    <img src="https://lucasfilmes.wordpress.com/wp-content/uploads/2011/01/ruff.jpg" alt="Mark Ruffalo">
+                    <h3>Mark Ruffalo</h3>
+                    <p>Interpreta Dylan Rhodes, o agente do FBI com um passado misterioso.</p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIRPQByyOuUN-1VC3gy3ynNNchDMXc6Sl6A&s" alt="Morgan Freeman">
+                    <h3>Morgan Freeman</h3>
+                    <p>Interpreta Thaddeus Bradley, um desmascarador de mágicos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Cadastre-se</h2>
+            <form>
+                <label for="name"><i class="bi bi-file-person"></i> Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email"><i class="bi bi-envelope-at"></i> E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+                <label for="email"><i class="bi bi-hand-thumbs-up"></i> você gostou dos filmes?:</label>
+                <input type="text" id="email" name="Opnião" placeholder="sua resposta" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+        </section>
+        
+            <section class="batata">
+            
+                <div id="user-list">
+                <h3>Usuários Cadastrados:</h3>
+                <ul></ul>  
+            </section>  
+            </div>
+    </div>
+    <script src="marcos.js"></script>
+
+    <footer>
+        <p>Catálogo de Mídias &copy; 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
