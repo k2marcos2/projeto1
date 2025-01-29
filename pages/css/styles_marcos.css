@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #880505;
+    background-color: #6651a1;
     color: white;
     text-align: center;
     padding: 20px;
@@ -32,6 +32,13 @@ h1, h2 {
     padding: 15px;
     border-radius: 8px;
 }
+.introdução {
+    text-align: justify;
+    margin-bottom: 20px;
+    background: #5d4a92;
+    padding: 15px;
+    border-radius: 8px;
+}
 
 .category {
     margin-bottom: 20px;
@@ -45,6 +52,15 @@ h1, h2 {
 }
 
 .card {
+    background: rgb(87, 86, 86);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 250px;
+    text-align: center;
+}
+.card2 {
     background: rgb(87, 86, 86);
     border: 1px solid #ddd;
     border-radius: 8px;

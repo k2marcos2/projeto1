@@ -122,7 +122,7 @@ Ou, caso esteja utilizando a branch `main`:
    - Clique no ícone de "Source Control" (Controle de Versão) no painel lateral esquerdo.
    - Certifique-se de que as alterações estão sincronizadas.
 
-#############################################################  lembra de organizar misso bem seu desgraça   ###########################################################################
+#############################################################  lembra de organizar isso bem seu desgraça   ###########################################################################
 
 <!-- PS C:\Users\Aluno> ssh-keygen
 Generating public/private ed25519 key pair.
@@ -176,7 +176,6 @@ PS C:\Users\Aluno\.ssh> cat .\id_ed25519.pub
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJKE0kBJC6qXUke3hU0IL5IlUfGhgVez0yN7TU4kvaYA aluno@LAB02-16
 PS C:\Users\Aluno\.ssh> -->]
 
-
 ################################################## não esquece isso pau no cu #########################################################################################################
 
 <!-- PS C:\Users\Aluno\Documents\projeto1> git branch
@@ -215,4 +214,3 @@ Enter passphrase for key '/c/Users/Aluno/.ssh/id_ed25519':
 branch 'develop' set up to track 'origin/develop'.
 Everything up-to-date
 PS C:\Users\Aluno\Documents\projeto1>  -->
-
