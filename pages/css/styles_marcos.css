@@ -57,7 +57,7 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 250px;
+    max-width: 350px;
     text-align: center;
 }
 .card2 {
@@ -67,7 +67,9 @@ h1, h2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     max-width: 250px;
-    text-align: center;
+    text-align: center; 
+    justify-content: center;
+    
 }
 
 .card img {
