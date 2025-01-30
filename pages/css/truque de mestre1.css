@@ -57,7 +57,7 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 350px;
+    max-width: 200px;
     text-align: center;
 }
 .card2 {
@@ -66,13 +66,16 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 250px;
+    max-width: 350px;
     text-align: center; 
-    justify-content: center;
     
 }
 
 .card img {
+    width: 100%;
+    height: auto;
+}
+.card2 img {
     width: 100%;
     height: auto;
 }
