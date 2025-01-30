@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #6651a1;
+    background-color: #0b4d74;
     color: white;
     text-align: center;
     padding: 20px;
@@ -53,7 +53,7 @@ h1, h2 {
 .introdução {
     text-align: justify;
     margin-bottom: 20px;
-    background: #5d4a92;
+    background: #0b4d74;
     padding: 15px;
     border-radius: 8px;
 }
