@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #0b4d74;
+    background-color: #6e6e6e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -84,7 +84,7 @@ h1, h2 {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    max-width: 350px;
+    max-width: 850px;
     text-align: center; 
     
 }
