@@ -1,10 +1,27 @@
 /* Estilo geral */
+.liter-regular {
+   
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Liter", serif;
     margin: 0;
     padding: 0;
     background-color: #000000;
     color: #ffffff;
+    transition: all 0,3s ease-in-out;
 }
 
 header {
