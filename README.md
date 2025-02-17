@@ -96,29 +96,33 @@ Ou, caso esteja utilizando a branch `main`:
    - No VS Code, pressione `Ctrl + Shift+'` para abrir um novo terminal.
    - Você também pode acessar o terminal pelo menu **"View" > "Terminal"**.
 
-### 3. **Inicialize o Repositório Local**
+### 3. **Abra o VS Code no Projeto**
+   - adicione um arquivo README com o um comando.
+     ```echo "nome para o arquivo" README.md```
+
+### 4. **Inicialize o Repositório Local**
    - No terminal integrado, inicialize o repositório local com:
      ```git init```
 
-### 4. **Adicione os Arquivos ao Repositório Local**
+### 5. **Adicione os Arquivos ao Repositório Local**
    - Para adicionar todos os arquivos do projeto:
      ```bashgit add .```
 
-### 5. **Faça o Commit Inicial**
+### 6. **Faça o Commit Inicial**
    - Crie um commit inicial com uma mensagem descritiva:
      ```git commit -m "Commit inicial: Adicionando arquivos do projeto"```
 
-### 6. **Conecte o Repositório Local ao Repositório Remoto**
+### 7. **Conecte o Repositório Local ao Repositório Remoto**
    - Configure o repositório remoto com a URL SSH:
      ```git remote add origin git@github.com:usuario/repositorio.git```
 
-### 7. **Envie os Arquivos para o Repositório Remoto**
+### 8. **Envie os Arquivos para o Repositório Remoto**
    - Envie as alterações para o repositório remoto:
      ```git push -u origin main```
    - Caso esteja usando a branch `master`:
      ```git push -u origin master```
 
-### 8. **Verifique o Status no VS Code**
+### 9. **Verifique o Status no VS Code**
    - Clique no ícone de "Source Control" (Controle de Versão) no painel lateral esquerdo.
    - Certifique-se de que as alterações estão sincronizadas.
 
